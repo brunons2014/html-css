@@ -1,0 +1,101 @@
+Imagens
+
+ Para adicionar imagens no html é só você digitar "img" no vscode e apertar ENTER pra completar.
+ Após completado o código existem 2 formas de você adicionar as imagens.
+
+ 1° Baixando e configurando a imagem para o tamanho de preferencia e logo após salvar na pasta do projeto ou em uma sub-pasta de imagens.
+    No vscode você deve digitar img e enter pra gerar o código e entre as primeiras aspas segurar "ctrl" e pressionar a tecla "espaço"
+Logo após irá aparecer um lugar para se indicar o local da imagem e para selecionar é só pressionar ENTER. E na segunda Aspas é só colocar
+uma indicação sobre oq é aquela imagem.
+ 
+
+
+ 2° Para adicionar uma imagem externa é só achar uma imagem de tamanho similar a que está procurando, copiar o link da imagem e colar entre
+os primeiros parenteses de "img" e no segundo parenteses colocar uma legenda sobre o que se trata aquele link.
+
+Comandos:
+ hr = cria uma linha orizontal
+
+ br = pula uma linha 
+
+ width = remendiciona o tamanho na pagina de um video
+
+ ! + ENTER = Cria toda estrutura base do código
+
+ h1 + Enter = Cria a estrutra do cabeçalho
+
+ p + Enter = cria um parágrafo
+
+ img + Enter Cria a estrutura para adicionar uma imagem (segure CTRL + ESPAÇO para selecionar o local da imagem)
+
+ link + favicon + ENTER = adiciona um favicon (imagem no nome do site na aba)
+
+ i + Enter = Cria um espaço para se digitar uma palavra ou frase em itálico (recoemdação para não usar)
+
+ em = ENTER = Cria um espaço para se digitar um palavra ou frase em itálico (usar essa)
+
+ b + ENTER = Cria um espaço para se digitar uma palavra ou frase em negrito (recomendação para não usar)
+
+ STRONG + ENTER = Cria um espaço para se digitar um plavra ou frase em negrito (usar essa)
+
+ mark + ENTER = Cria uma marcação como se fosse um marca texto
+
+ small = Cria uma palavra menor que as outras
+ 
+ del = risca um texto pra podermos desconsiderar aquela parte
+
+ ins = sublinha um texto
+
+ sup = coloca letra ou palavra acima das outras
+
+ blockquote = serve pra colocar um link de referencia a alguma citação porém só o navegador poderá ver isso, o usuario final não.
+
+ abbr = Cria uma explicação para a frase ou palavra selecionada e vai aparecer quando colocar o mouse em cima.
+
+ bdo = escreve tudo ao contrario 
+
+ ol (ordinary list) = cria uma lista ordinaria seguida de numeros, letras e algarismos romanos
+
+ ul (Unordinary list) = cria uma lista baseada em circulos e quadrados (formas geometricas)
+
+ li = são os itens da lista
+ 
+ dl = Lista de definição onde (dt = o termo a ser definido) e (dd =  a definição)
+
+ sub = coloca letra ou palavra abaixo das outras como pra escrever H2O
+
+ code = cria uma formatação de texto pra referenciar um código de programação
+
+ pre = deixa a tag CODE com identação de programação
+
+ picture = é a tag usada para se inserir imagens responsivas com o comando 'source media'
+
+  source media = dentro de source media nós definiremos qual o tamanho maximo que cada imagem responsiva ficará
+na tela até mudar para a proxima, pra isso é bom definir juntamente com as imagens em tamano diferente ex:
+
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+sempre com 50 a mais para dar uma margem de erro  (max-width: ) serve pra colocar o tamanho maximo da imagem antes de mudar pra proxima.
+srcset"" serve pra colocar o caminho da imagem
+type="image/" serve pra definir o tipo de imagem geralmente em png.
+ q = cria aspas
+ 
+ a = Serve para adicionar links, "Porém se for para acessar um site externo sem fechar o seu o ideal é colocar target="_blank" rel="external" dentro de (a)"
+e também serve pra adicionar o arquivo pra download porém o indicado é colocar EX:
+<a href="livro/livro.zip" download="livro.zip" type="application/zip">link compactado em zip</a>
+porém basicamente é do mesmo jeito que se adiciona links
+
+ audio = se utiliza para adicionar um audio no site, porém dentro da tag audio é bom fazer algumas adições, <audio preload="metadata" autoplay controls>
+  "source src="caminho do audio.mp3" type="audio/formato do audio"
+FAVICON
+
+ Favicon é a imagem que fica na aba junto com o nome do site, o ideal é que ele seja uma imagem em formato ico.
+
+ para converter uma imagem em formato ico pode ser fazer pelo site https://favicon.io/
+
+ E para adicionar o favicon é simples, é só ir na linha acima do titulo, escrever link e selecionar a opção favicon e adiconar a imagem
+como as outras normalmente.
+
+ selecionando a frase ou palavra e segurando as teclas CTRL + SHIFT + P abre o local do abreviation onde você pode colocar a tag caso
+tenha se esquecido de colocar ou esteja no meio da frase 
