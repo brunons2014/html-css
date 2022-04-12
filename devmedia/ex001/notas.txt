@@ -1,0 +1,36 @@
+<!-- Abrir uma página do próprio site -->
+
+  <a href="pagina2.html">
+    Abrir página 2
+  </a>
+
+  <!-- Link para um número de telefone -->
+  <a href="tel:+5521995566889">
+    +55 21 99556 - 6889
+  </a>
+
+  <!-- Link para um email -->
+  <a href="mailto:suporte@exemplo.com">
+    Enviar email
+  </a>
+
+  <!-- Âncora para um elemento da própria página -->
+  <a href="#contato">
+    Contato
+  </a>
+
+  <!-- Link para um site externo que abrirá em uma nova guia -->
+  <a href="https://www.mercadolivre.com.br/" target="_blank">
+    Site do mercado livre
+  </a>
+
+  IMAGENS
+
+  <!-- Imagem do mesmo diretório que o projeto e na mesma pasta que o arquivo que a exibe -->
+<img src="computador.jpg" alt="Notebook Lenovo Ideapad S145" title="Notebook Lenovo">
+
+<!-- Imagem do mesmo diretório que o projeto porém em uma subpasta -->
+<img src="assets/computador.jpg" alt="Notebook Lenovo Ideapad S145" title="Notebook Lenovo">
+
+<!-- Imagem de uma url externa -->
+<img src="https://http2.mlstatic.com/D_NQ_NP_785711-MLA40805775472_022020-O.webp" alt="Notebook Lenovo Ideapad S145" title="Notebook Lenovo">

@@ -1,0 +1,15 @@
+div {
+    width: 600px;
+    margin: 50px auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    
+}
+
+span {
+    border-top: 5px dashed red;
+    border-right: 15px solid green;
+    border-bottom: 5px dashed white;
+    border-left: 15px solid red;
+}

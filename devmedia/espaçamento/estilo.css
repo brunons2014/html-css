@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+}
+
+div {
+    width: 500px;
+    border: 2px solid red;
+    margin: 20px auto;
+    text-align: center;
+    padding: 30px 60px 80px 60px;
+}
+
+img {
+    width: 365px;
+}
+
+h1 {
+    font-family: Impact;
+    font-size: 28px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: red;
+}
+
+p {
+    font-family: Verdana;
+    font-size: 18px;
+    margin-bottom: 80px;
+    color: red;
+}
+
+a {
+    font-family: Verdana;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 15px 40px;
+}

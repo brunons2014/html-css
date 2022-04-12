@@ -1,0 +1,22 @@
+h1 {
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    text-align: center;
+}
+
+div {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    line-height: 48px;
+}
+
+span {
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
