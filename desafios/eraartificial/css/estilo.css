@@ -1,0 +1,41 @@
+img {
+    width: 190px;
+}
+
+div {
+    background-color: #f5f5f5;
+    padding: 50px;
+    border: 1px solid #d5d5d5;
+    text-align: center;
+    font-family: Tahoma;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 35px;
+    width: 930px;
+    margin: 35px auto;
+}
+
+a {
+    background-color: #49ab62;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 25px;
+    margin: 35px;
+    font-weight: bold;
+}
+
+span {
+    font-weight: bold;
+}
